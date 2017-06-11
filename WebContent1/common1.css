@@ -1,0 +1,104 @@
+@CHARSET "ISO-8859-1";
+
+@import
+	url('https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,700,700i')
+	;
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url("firstimg1.jpg");
+	firstimg1
+	color: black;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	background-width:100%
+    background-height:100%
+}
+
+input,select {
+	font-family: 'Rubik', sans-serif;
+}
+
+input[type=text],input[type="number"],input[type="email"],input[type="password"],textarea,select
+	{
+	width: 100%;
+	padding: 20px; margin : 10px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 10px;
+}
+
+input[type=submit],input[type="reset"],input[type="button"],button,.button
+	{
+	text-decoration: none;
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px;
+	margin: 10px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	background-color: #4CAF50;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+h1,h2,h3 {
+	font-weight: 300;
+}
+
+/* styling for the header */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li.right {
+	float: right;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+a:hover:not (.active ) {
+	background-color: #111;
+}
+
+.active {
+	background-color: #4CAF50;
+}
+
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: yellow;
+}
+
+
+.success {
+	color: #489b1b;
+}
+
+.error, .warning {
+	color: #cc2424;
+}
